@@ -35,21 +35,25 @@ function NavBar() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link 
                     as={Link}  
+                    to={'/'}
                   >
                      <BiHomeAlt/> Home
                     </Nav.Link>
                   <Nav.Link
                     as={Link}
+                    to={'/about'}
                   >
                      <BiUser/> About
                   </Nav.Link>
                   <Nav.Link 
                    as={Link}
+                   to={'project'}
                   >
                      <AiOutlineFundProjectionScreen/> Projects
                   </Nav.Link>
                   <Nav.Link
                    as={Link}
+                   to={'resume'}
                   >
                      <HiOutlineDocumentText/> Resume
                   </Nav.Link>
